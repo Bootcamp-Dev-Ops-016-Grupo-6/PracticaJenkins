@@ -7,6 +7,5 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(saludar("DevOps"));
-        System.out.println(saludar("Hola Mundo"));
     }
 }
