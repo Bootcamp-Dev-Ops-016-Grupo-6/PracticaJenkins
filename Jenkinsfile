@@ -5,7 +5,6 @@ pipeline {
         jdk 'JDK21'
     }
     stages {
-        stages {
         stage('Checkout código') {
             steps {
                 checkout([
