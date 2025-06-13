@@ -1,0 +1,5 @@
+¿Qué aprendieron?
+La instalación y configuración de Jenkins, como crear jobs que se conecten a repositorios remotos de GitHub y cómo escribir y depurar un Job que se encargue de compilar un proyecto en Maven.
+
+¿Qué les sorprendió más?
+La cantidad de posibilidades que ofrece Jenkins, pudiendo automatizar procesos que normalmente toman tiempo y esfuerzo una sola vez y poder replicar esto cada vez que sea necesario, además de la facilidad de uso de la herramienta una vez que se entiende como funciona.
