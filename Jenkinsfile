@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git 'https://github.com/jprivas30/PracticaJenkins.git'
+                git branch: 'main', url: 'https://github.com/jprivas30/PracticaJenkins.git'
             }
         }
         stage('Compilar') {
