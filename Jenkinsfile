@@ -5,9 +5,14 @@ pipeline {
         jdk 'JDK21'
     }
     stages {
-        stage('Clonar') {
+        stages {
+        stage('Checkout código') {
             steps {
-                git branch: 'main', url: 'https://github.com/jprivas30/PracticaJenkins.git'
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[url: 'https://github.com/jprivas30/PracticaJenkins.git']]
+                ])
             }
         }
         stage('Compilar') {
