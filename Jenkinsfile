@@ -7,11 +7,7 @@ pipeline {
     stages {
         stage('Checkout código') {
             steps {
-                checkout([
-                    $class: 'GitSCM',
-                    branches: [[name: '*/main']],
-                    userRemoteConfigs: [[url: 'https://github.com/jprivas30/PracticaJenkins.git']]
-                ])
+                checkout scm
             }
         }
         stage('Compilar') {
