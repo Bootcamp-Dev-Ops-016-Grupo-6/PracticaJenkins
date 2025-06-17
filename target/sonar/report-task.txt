@@ -1,0 +1,6 @@
+projectKey=saludoapp
+serverUrl=http://localhost:9000
+serverVersion=25.6.0.109173
+dashboardUrl=http://localhost:9000/dashboard?id=saludoapp
+ceTaskId=bb3c0f1d-00c8-49ca-8646-ffec29b1434d
+ceTaskUrl=http://localhost:9000/api/ce/task?id=bb3c0f1d-00c8-49ca-8646-ffec29b1434d
